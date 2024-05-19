@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll; 
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;align-items: center;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.one{
+    background-color: coral;
+}
+
+.two{
+    background-color: aquamarine;
+}
+
+.three{
+    background-color: darkviolet;
+}
+
+.four{
+    background-color: lightsteelblue;
+}
+
+.sticked-nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+    color:yellow;
+}
