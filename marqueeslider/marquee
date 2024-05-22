@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee</title>
+    <style>
+        
+        .floatingLeft{
+            float: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <marquee behavior="scroll" direction="right" bgcolor="black">
+        <img class = "floatingLeft" src="images/py.png" width="80" height="80" alt="">
+        <img class = "floatingLeft" src="images/js.jpeg" width="80" height="80" alt="">
+        <img class = "floatingLeft" src="images/html.jpeg" width="80" height="80" alt="">
+        <img class = "floatingLeft" src="images/css.jpeg" width="80" height="80" alt="">
+        
+    </marquee>
+    
+</body>
+</html>
